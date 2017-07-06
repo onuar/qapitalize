@@ -1,0 +1,1 @@
+# Qapitalize the first letter of a string.
