@@ -1,0 +1,32 @@
+{
+  "name": "qapitalize",
+  "version": "1.0.0",
+  "description": "qapitalize the first letter of a string.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onuar/qapitalize.git"
+  },
+  "keywords": [
+    "capitalize",
+    "qapitalize",
+    "useful",
+    "module",
+    "seriously"
+  ],
+  "author": "onuradam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onuar/qapitalize/issues"
+  },
+  "homepage": "https://github.com/onuar/qapitalize#readme",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
