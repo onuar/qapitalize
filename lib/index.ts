@@ -1,3 +1,3 @@
-export function qapitalize(param: string):string{
+export function it(param: string):string{
     return param;
 }
