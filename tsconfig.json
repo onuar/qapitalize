@@ -7,7 +7,10 @@
         "outDir": "./dist", /* Redirect output structure to the directory. */
         "strict": true /* Enable all strict type-checking options. */
     },
+    "include": [
+        "lib"
+    ],
     "exclude": [
-      "node_modules"  
+        "node_modules"
     ]
 }
