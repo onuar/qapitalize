@@ -3,12 +3,19 @@ import * as data from './resource.json';
 export function it(param: string):string{
     let length = (<any>data).length;
     let max = Math.floor(length);
-    let index = Math.floor(Math.random() * (max - 0)) + 0;
     
-    console.log((<any>data)[index]);
-    // console.log((<any>data));
-    return param;
+    var capital = "Ankara";
+    var index = 0;
+
+      return param.replace(/\w\S*/g,
+        function (word) {
+            index = Math.floor(Math.random() * (max - 0)) + 0;  
+            capital = (<any>data)[index]["city"];
+
+            return capital + word.substr(1).toLowerCase()
+        });
 }
 
 //test line
-it("hede");
+var hede = it("hede hodo bıdı budu");
+console.log(hede);
