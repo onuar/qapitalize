@@ -17,5 +17,5 @@ export function it(param: string):string{
 }
 
 //test line
-var hede = it("hede hodo bıdı budu");
-console.log(hede);
+// var hede = it("hede hodo bıdı budu");
+// console.log(hede);
